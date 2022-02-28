@@ -5,8 +5,8 @@ import CustomTable from './components/CustomTable';
 
 // var fetch = require('node-fetch');
 var io = require('socket.io-client');
-var socket = io.connect('localhost:3000', {reconnect: true});
-// var socket = io.connect('https://agile-shelf-81976.herokuapp.com/', {reconnect: true});
+// var socket = io.connect('localhost:3000', {reconnect: true});
+var socket = io.connect('https://agile-shelf-81976.herokuapp.com/', {reconnect: true});
 // var logger = require('logger').createLogger('logfile.log'); 
 
 const header = ["Device Info","Values"];
